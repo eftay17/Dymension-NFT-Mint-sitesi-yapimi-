@@ -86,49 +86,84 @@ https://thirdweb.com/dashboard
 ![c1](https://github.com/Mysterious098/Dymension-App-yap-m-/assets/107887745/4d3f2e77-46e9-4744-b291-84769dc54fc8)
 
 ```
-<style>
-    }
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YUKOVSKIBOT NFT</title>
+    <style>
+        body {
+            font-family: 'Fraunces', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-image: url('https://pbs.twimg.com/media/GCm1M7ZWMAAldYg.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
 
-    button {
-        background: none;
-        border: none;
-        padding: 0;
-        font-family: 'Fraunces', sans-serif;
-        font-size: 24px;
-        font-weight: bold;
-        cursor: pointer;
-        color: #001f3f;
-    }
+        .button-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
 
-    .separator {
-        margin: 0 10px;
-    }
+        .heading {
+            font-size: 40px;
+            font-weight: bold;
+            color: #ffffff;
+            margin-bottom: 10px;
+        }
 
-    .heading {
-        font-family: 'Fraunces', sans-serif;
-        font-size: 40px;
-        font-weight: bold;
-        color: #001f3f;
-        margin-bottom: 10px;
-    }
-</style>
+        button {
+            background: #ffffff;
+            border: 2px solid #ffffff;
+            padding: 10px 20px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            color: #001f3f;
+            margin: 0 10px;
+            text-decoration: none;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        button:hover {
+            background-color: #001f3f;
+            color: #ffffff;
+        }
+
+        iframe {
+            max-width: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
 
 <div class="button-container">
-    <div class="heading">BURAYA İSTEDİĞİNİZİ YAZABİLİRSİNİZ ÖRNEK ( BURCUKALE DYMENSİON ROLLAPP) GİBİ</div>
-    <button onclick="window.location.href='BURAYA ROLLER LİNKİNİZİ YAZINIZ'">Rollapp</button>
-    <span class="separator">⟡</span>
-    <button onclick="window.location.href='BURAYADA FAUCET LİNKİNİZİ YAZINIZ'">Faucet</button>
-    <span class="separator">⟡</span>
+    <div class="heading">YUKOVSKIBOT NFT</div>
+    <button onclick="window.location.href='https://portal.dymension.xyz/rollapp/eftay_3813535-1/metrics'">Rollapp</button>
+    <button onclick="window.location.href='https://dym-faucet.vercel.app'">Faucet</button>
+    <button onclick="window.location.href='https://portal.dymension.xyz/amm/pool/127'">Pool</button>
 </div>
 
-<div style="display: flex; justify-content: center;">
-    (<iframe  BU KISMI SİLİP BURAYA Embed Code yazan kısımdaki kodları KOPYALAYIP YAPIŞTIRIN )
-    src="https://embed.ipfscdn.io/ipfs/bafybeigdie2yyiazou7grjowoevmuip6akk33nqb55vrpezqdwfssrxyfy/erc1155.html?contract=0x16A0A9D87aACbF358dd16847E9306D38104B65AA&chain=%7B%22name%22%3A%22burcukale%22%2C%22chain%22%3A%22%22%2C%22rpc%22%3A%5B%22https%3A%2F%2Ffroopyland.dymension.xyz%2F12%2Fburcukale_4112966-1%2Fevmrpc%22%5D%2C%22nativeCurrency%22%3A%7B%22symbol%22%3A%22BRCK%22%2C%22name%22%3A%22BRCK%22%2C%22decimals%22%3A18%7D%2C%22shortName%22%3A%22burcukale%22%2C%22chainId%22%3A4112966%2C%22testnet%22%3Atrue%2C%22slug%22%3A%22burcukale%22%7D&clientId=a6e3d2321ea721c7be7ca4124f8b27c5&tokenId=0&theme=dark&primaryColor=purple"
+<iframe
+    src="https://embed.ipfscdn.io/ipfs/bafybeigdie2yyiazou7grjowoevmuip6akk33nqb55vrpezqdwfssrxyfy/erc1155.html?contract=0xEfB6A6f802337D782f4fdDaf107f31349876c7F9&chain=%7B%22name%22%3A%22Karsiyaka%22%2C%22chain%22%3A%22%22%2C%22rpc%22%3A%5B%22https%3A%2F%2Ffroopyland.dymension.xyz%2F21%2Feftay_3813535-1%2Fevmrpc%22%5D%2C%22nativeCurrency%22%3A%7B%22symbol%22%3A%22KSK%22%2C%22name%22%3A%22KSK%22%2C%22decimals%22%3A18%7D%2C%22shortName%22%3A%22Karsiyaka%22%2C%22chainId%22%3A3813535%2C%22testnet%22%3Atrue%2C%22slug%22%3A%22Karsiyaka%22%2C%22icon%22%3A%7B%22url%22%3A%22ipfs%3A%2F%2FQmd7wkrKbrskavVtxQ7CUCNAhkQRHc2cWoDdEkj8DB7zWp%2Fjohnny.png%22%2C%22width%22%3A50%2C%22height%22%3A50%2C%22format%22%3A%22%22%7D%7D&clientId=a8959c2a433f6e1172c6772e509016e5&tokenId=0&theme=dark&primaryColor=blue"
     width="600px"
     height="600px"
     style="max-width:100%;"
     frameborder="0"
 ></iframe>
+
+</body>
+</html>
 ```
 
 # En son commit Changes diyoruz ve github ile işimiz bitiyor
